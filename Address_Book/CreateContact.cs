@@ -52,6 +52,9 @@ namespace Address_Book
             CreateContact obj = new CreateContact();
             obj.Create_Contact();
             obj.DisplayContact();
+            NewContact newContact = new NewContact();
+            newContact.DisplayContact();
+            
             Console.ReadLine();
         }
     }
